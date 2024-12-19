@@ -4,11 +4,26 @@
     font-style: normal;
   }
 
+   /* shared styles */
+
+   .display-flex{
+    display: flex;
+  }
+
   body{
     background-color: black;
     filter: 0 4px 4px 0 drop-shadow(rgba(0, 0, 0, 0.25));
+    
+  }
+  header{
     max-width: 1440px;
     margin: 0 auto;
+    margin-bottom: 200px;
+  }
+  main > section{
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 100px;
   }
 
   /* navbar styles  */
@@ -129,8 +144,45 @@
     color: rgba(255, 255, 255, 0.5);
   }
 
-  /* shared styles */
-
-  .display-flex{
-    display: flex;
+  /* main styles of havit */
+  .habit-content{
+    margin-bottom: 60px;
   }
+  .habit-title, .habit-sub-title{
+    width: 580px;
+    margin: 0 auto;
+    
+  }
+  .habit-title{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .habit-sub-title{
+    font-size: 0.8rem;
+    color:rgba(255, 255, 255, 0.5);
+    text-align: center;
+  }
+
+  .habit-img-container{
+    width: 230px;
+    height: 270px;
+    text-align: center;
+  }
+  .img-container{
+    justify-content: space-evenly;
+  }
+
+  .habit-img > img{
+    border-radius: 50%;
+  }
+  .img-habit-title{
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+  }
+ .habit-img-sub-title{
+  font-size: .8rem;
+  color:rgba(255, 255, 255, 0.5);
+  
+
+}
+ 
