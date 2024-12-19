@@ -1,188 +1,257 @@
 .inter-normal {
-    font-family: "Inter", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
-   /* shared styles */
+/* shared styles */
 
-   .display-flex{
-    display: flex;
-  }
+.display-flex {
+  display: flex;
+}
 
-  body{
-    background-color: black;
-    filter: 0 4px 4px 0 drop-shadow(rgba(0, 0, 0, 0.25));
-    
-  }
-  header{
-    max-width: 1440px;
-    margin: 0 auto;
-    margin-bottom: 200px;
-  }
-  main > section{
-    max-width: 1060px;
-    margin: 0 auto;
-    margin-bottom: 100px;
-  }
-
-  /* navbar styles  */
-  .navbar{
-    justify-content: space-between;
-    margin-top: 50px;
-  }
-
-  .fitness{
-    font-size: 2.25rem;
-    font-weight: 900;
-    color: #E6533C;
-  }
-
-  #home{
-    background-color: #E6533C;
-    padding: 6px 12px;
-    border-radius: 40px;
-
-  }
-
-  .nav-titles{
-    font-size: 1.1rem;
-    color: #ffffff;
-    list-style: none;
-    gap: 40px;
-  }
-
-  /* banner styles */
-
-  .banner-text{
-    width: 520px;
-    height: 440px;
-  }
-
-  .banner-title{
-    font-size: 4.8rem;
-  }
- #shape{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- }
-  .banner-description{
-    font-size: 1rem;
-    color:rgba(255, 255, 255, 0.5) ;
-  }
-
-  .btn-primary{
-    background-color:#E6533C ;
-    padding: 16px 32px;
-    border-radius: 40px;
-    border: none;
-  }
-  .btn-download{
-    background-color:black;
-    border: 1px solid white;
-    padding: 16px 32px;
-    border-radius: 40px;
-  }
-
-  .free-workout, 
-  .video-tutorial{
-    width: 195px;
-    height: 100px;
-    text-align: center;
-    gap: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 15px;
-    backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  }
-
-  .free-workout, 
-  .video-tutorial{
-    line-height: 0.01;
-  }
-
-  .free-workout{
-    margin-top: -480px;
-    margin-left: 200px;
-  }
-
-
-  .video-tutorial{
-    margin-top: 200px;
-    margin-left: -100px;
-    align-items: center;
-    justify-content: center;
-
-  }
-
-  .banner{
-    justify-content: space-around;
-  }
-
-  .red-dot{
-    border: 1px solid #E6533C;
-    width: 40px;
-    height: 40px;
-    background-color: #E6533C;
-    border-radius: 50px;
-  }
-
-  .w-title{
-    font-size: 2.5rem;
-  }
-  .v-title{
-    font-size: 1.75rem;
-
-  }
-  .w-sub-title{
-    font-size: 1rem;
-    color:rgba(255, 255, 255, 0.5) ;
-  }
-  .v-sub-title{
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.5);
-  }
-
-  /* main styles of havit */
-  .habit-content{
-    margin-bottom: 60px;
-  }
-  .habit-title, .habit-sub-title{
-    width: 580px;
-    margin: 0 auto;
-    
-  }
-  .habit-title{
-    font-size: 3rem;
-    text-align: center;
-  }
-  .habit-sub-title{
-    font-size: 0.8rem;
-    color:rgba(255, 255, 255, 0.5);
-    text-align: center;
-  }
-
-  .habit-img-container{
-    width: 230px;
-    height: 270px;
-    text-align: center;
-  }
-  .img-container{
-    justify-content: space-evenly;
-  }
-
-  .habit-img > img{
-    border-radius: 50%;
-  }
-  .img-habit-title{
-    font-size: 1.2rem;
-    margin-bottom: 2px;
-  }
- .habit-img-sub-title{
-  font-size: .8rem;
-  color:rgba(255, 255, 255, 0.5);
-  
+body {
+  background-color: black;
+  filter: 0 4px 4px 0 drop-shadow(rgba(0, 0, 0, 0.25));
 
 }
- 
+
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+main>section {
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+/* navbar styles  */
+.navbar {
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.fitness {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #E6533C;
+}
+
+#home {
+  background-color: #E6533C;
+  padding: 6px 12px;
+  border-radius: 40px;
+
+}
+
+.nav-titles {
+  font-size: 1.1rem;
+  color: #ffffff;
+  list-style: none;
+  gap: 40px;
+}
+
+/* banner styles */
+
+.banner-text {
+  width: 520px;
+  height: 440px;
+}
+
+.banner-title {
+  font-size: 4.8rem;
+}
+
+#shape {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.banner-description {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary {
+  background-color: #E6533C;
+  padding: 16px 32px;
+  border-radius: 40px;
+  border: none;
+}
+
+.btn-download {
+  background-color: black;
+  border: 1px solid white;
+  padding: 16px 32px;
+  border-radius: 40px;
+}
+
+.free-workout,
+.video-tutorial {
+  width: 195px;
+  height: 100px;
+  text-align: center;
+  gap: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.free-workout,
+.video-tutorial {
+  line-height: 0.01;
+}
+
+.free-workout {
+  margin-top: -480px;
+  margin-left: 200px;
+}
+
+
+.video-tutorial {
+  margin-top: 200px;
+  margin-left: -100px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.banner {
+  justify-content: space-around;
+}
+
+.red-dot {
+  border: 1px solid #E6533C;
+  width: 40px;
+  height: 40px;
+  background-color: #E6533C;
+  border-radius: 50px;
+}
+
+.w-title {
+  font-size: 2.5rem;
+}
+
+.v-title {
+  font-size: 1.75rem;
+
+}
+
+.w-sub-title {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.v-sub-title {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* main styles of havit */
+.habit-content {
+  margin-bottom: 60px;
+}
+
+.habit-title,
+.habit-sub-title {
+  width: 580px;
+  margin: 0 auto;
+
+}
+
+.habit-title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.habit-sub-title {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.habit-img-container {
+  width: 230px;
+  height: 270px;
+  text-align: center;
+}
+
+.img-container {
+  justify-content: space-evenly;
+}
+
+.habit-img>img {
+  border-radius: 50%;
+}
+
+.img-habit-title {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+
+.habit-img-sub-title {
+  font-size: .8rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* run extra mile styles  */
+.extra-mile {
+  gap: 150px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.text-container {
+  max-width: 350px;
+  height: 300px;
+}
+
+.extra-mile-title {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+.extra-mile-sub-title {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.run-img {
+  width: 300px;
+  border-radius: 16px;
+}
+
+/* our team styles  */
+.our-team-content{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.our-team-title{
+  font-size: 3rem;
+  margin-bottom: 5px;
+
+}
+.our-team-sub-title{
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+
+}
+.team-container{
+  max-width: 950px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.trainers{
+  width: 300px;
+  height: 250px;
+  border-radius: 18px;
+}
