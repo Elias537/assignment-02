@@ -22,7 +22,7 @@ header {
   margin-bottom: 200px;
 }
 
-main>section {
+main > section {
   max-width: 1060px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -229,11 +229,20 @@ main>section {
 }
 
 /* our team styles  */
+.our-team{
+  max-width: 1060px;
+  margin: 0 auto;
+  /* margin-left: 100px; */
+  justify-items: center;
+  align-items: center;
+
+
+}
 .our-team-content{
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .our-team-title{
   font-size: 3rem;
@@ -246,12 +255,39 @@ main>section {
 
 }
 .team-container{
-  max-width: 950px;
-  margin: 0 auto;
-  justify-content: center;
+  /* max-width: 1050px;
+  margin: 0 auto; */
+  /* justify-content: center;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  padding: 20px;
+  border-radius: 15px;
 }
 .trainers{
   width: 300px;
   height: 250px;
   border-radius: 18px;
+}
+.photo-container{
+  position: relative;
+}
+
+.trainers-description{
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 20px;
+}
+#name{
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+#title{
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 2px;
 }
