@@ -29,11 +29,12 @@ body {
 
 main {
   flex: 1;
+  min-height: calc(100vh-500px);
 }
 
-html,
-body {
-  overflow-x: hidden;
+body,
+html {
+  height: 100%;
 }
 
 
@@ -60,7 +61,6 @@ main>section {
   background-color: #E6533C;
   padding: 6px 12px;
   border-radius: 40px;
-
 }
 
 .nav-titles {
@@ -360,9 +360,115 @@ footer section div ul li {
   list-style: none;
 }
 
-.rights{
+.rights {
   font-size: 1.25rem;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
   margin-bottom: 100px;
+}
+
+@media screen and (max-width:576px) {
+
+  .navbar,
+  .nav-titles {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .fitness {
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .nav-titles li {
+    margin-bottom: -20px;
+    align-items: center;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-text {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .banner-image {
+    width: 50%;
+    margin-top: 200px;
+    padding: 20px;
+  }
+
+  .video-tutorial {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .free-workout {
+    margin-left: 180px;
+  }
+
+
+  .habit-title,
+  .habit-sub-title {
+    width: 100%;
+    height: 100%;
+  }
+
+  .habit-img-container {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+
+  .habit-img {
+    margin-bottom: -30px;
+    align-items: center;
+  }
+
+  .img-container {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+
+  /* habit done  */
+  .extra-mile {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .our-team,
+  .team-container {
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .team-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    margin-top: 1600px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-column,
+  .footer-nav {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    align-items: center;
+  }
+
+  hr {
+    margin-bottom: 30px;
+  }
+
 }
