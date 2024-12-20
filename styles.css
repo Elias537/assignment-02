@@ -22,11 +22,27 @@ header {
   margin-bottom: 200px;
 }
 
-main > section {
+body {
+  /* display: flex; */
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+
+main>section {
   max-width: 1060px;
   margin: 0 auto;
   margin-bottom: 100px;
 }
+
 
 /* navbar styles  */
 .navbar {
@@ -229,7 +245,7 @@ main > section {
 }
 
 /* our team styles  */
-.our-team{
+.our-team {
   max-width: 1060px;
   margin: 0 auto;
   /* margin-left: 100px; */
@@ -238,27 +254,27 @@ main > section {
 
 
 }
-.our-team-content{
+
+.our-team-content {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 30px;
 }
-.our-team-title{
+
+.our-team-title {
   font-size: 3rem;
   margin-bottom: 5px;
 
 }
-.our-team-sub-title{
+
+.our-team-sub-title {
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.5);
 
 }
-.team-container{
-  /* max-width: 1050px;
-  margin: 0 auto; */
-  /* justify-content: center;
-  align-items: center; */
+
+.team-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
@@ -267,27 +283,86 @@ main > section {
   padding: 20px;
   border-radius: 15px;
 }
-.trainers{
+
+.trainers {
   width: 300px;
   height: 250px;
   border-radius: 18px;
 }
-.photo-container{
+
+.photo-container {
   position: relative;
 }
 
-.trainers-description{
+.trainers-description {
   position: absolute;
   margin-top: -100px;
   margin-left: 20px;
 }
-#name{
+
+#name {
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 2px;
 }
-#title{
+
+#title {
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 2px;
+}
+
+/* footer styles */
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 700px;
+
+}
+
+.footer-column {
+  max-width: 1060px;
+  margin: 0 auto;
+  gap: 100px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.footer-nav {
+  gap: 140px;
+}
+
+.fitness {
+  width: 450px;
+}
+
+.footer-title {
+  font-size: 4.25rem;
+  font-weight: bolder;
+  color: #E6533C;
+  margin-bottom: 10px;
+}
+
+.footer-sub-title {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 2px;
+}
+
+.gs-title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+footer section div ul li {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.5);
+  list-style: none;
+}
+
+.rights{
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-bottom: 100px;
 }
